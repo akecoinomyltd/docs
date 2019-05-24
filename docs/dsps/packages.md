@@ -71,7 +71,7 @@ Packages
 ```
 ### If not using Kubernetes
 ```bash
-npm install -g @liquidapps/zeus-cmd
+npm install -g @liquidapps/zeus-cmd  --unsafe-perm=true
 cd $(readlink -f `which setup-dsp` | xargs dirname)
 ```
 ### Register Package
